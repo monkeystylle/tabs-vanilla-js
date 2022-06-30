@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h1>Tabs with HTML CSS & JS</h1>
+    <div class="tabs">
+      <div class="tabs__sidebar">
+        <button class="tabs__button tabs__button--active" data-for-tab="1">
+          Tab #1
+        </button>
+        <button class="tabs__button" data-for-tab="2">Tab #2</button>
+        <button class="tabs__button" data-for-tab="3">Tab #3</button>
+      </div>
+      <!-- tabs content -->
+      <div class="tabs__content tabs__content--active" data-tab="1">
+        <h2>Tab #1</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sequi
+          aspernatur, fuga ipsam enim cupiditate sed aliquam non laboriosam quis
+          sunt eveniet cum vitae quod! Asperiores, id eum, exercitationem nemo
+          quia in suscipit qui voluptatem odit iste harum quaerat at nam!
+          Voluptate ad cum fugit. Explicabo sint est quasi! Aliquid atque
+          consequatur laboriosam! Reprehenderit ad, quos suscipit cum excepturi
+          nisi deserunt. Temporibus debitis voluptatem fugiat ipsum adipisci ab,
+          aperiam nam, dignissimos eos culpa voluptatum delectus nesciunt, porro
+          nemo ratione deleniti! Laudantium provident perspiciatis rerum error
+          dignissimos? Repellat, excepturi dolore. Obcaecati alias neque nam,
+          tempora architecto commodi harum aut excepturi corrupti voluptatem?
+        </p>
+      </div>
+      <div class="tabs__content" data-tab="2">
+        <h2>Tab #2</h2>
+      </div>
+      <div class="tabs__content" data-tab="3">
+        <h2>Tab #3</h2>
+      </div>
+    </div>
+
+    <script href="./tabs.js"></script>
+  </body>
+</html>
